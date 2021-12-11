@@ -3,14 +3,22 @@ using namespace std;
 
 int main()
 {
-    cout << "Namaste Duniya" << endl;
+    cout << "Namaste Duniya\n" << endl;
     cout << "*******************" << endl;
+    // dataypes & variables
     int a = 28;
     char ch1 = 'M';
     cout << a << endl;
     cout << ch1 << endl;
+    bool a1 = true;
+    cout << a1 << endl;
+    float a2 = 89.4;
+    cout << a2 << endl;
+    string name = "mohammed";
+    cout << name << endl;
 
     // typecasting
+    cout << "\n";
     int b = 'm';
     cout << b << endl;
     int b2 = ch1;
